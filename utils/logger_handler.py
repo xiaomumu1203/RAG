@@ -1,6 +1,5 @@
 import logging,os
 from datetime import datetime
-
 from utils.path_tool import get_abs_path
 
 #日志保存的路径
@@ -46,7 +45,7 @@ def get_logger(
 
 logger = get_logger()
 
-#测试logger
+#测试logger输出
 if __name__ == '__main__':
     logger.info("信息日志")
     logger.debug("调试日志")
